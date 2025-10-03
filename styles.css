@@ -1,3 +1,9 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -9,17 +15,17 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: 300px;
+    gap: 20px
 }
 
 .header, .container {
     background-color: #1F2937;
     color: #f9faf8;
-    font-family: Roboto, sans-serif;
 }
 
 .logo {
     display: flex;
-    margin: 16px 0;
+    /* margin: 16px 0; */
 }
 ul {
     display: flex;
@@ -41,4 +47,9 @@ button {
     border-radius: 5px;
     border: none;
     color: #f9faf8;
+}
+
+.image  {
+   background-color: lightgray;
+
 }
