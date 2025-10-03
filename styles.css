@@ -17,17 +17,15 @@
     font-family: Roboto, sans-serif;
 }
 
-.links {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-}
-
 ul {
+    display: flex;
     list-style-type: none;
+    padding: 0;
+    gap: 16px;
 }
 
 a {
+    font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
 }
