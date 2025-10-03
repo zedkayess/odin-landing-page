@@ -6,8 +6,8 @@
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: 300px;
 }
 
@@ -17,6 +17,10 @@
     font-family: Roboto, sans-serif;
 }
 
+.logo {
+    display: flex;
+    margin: 16px 0;
+}
 ul {
     display: flex;
     list-style-type: none;
@@ -28,4 +32,13 @@ a {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    color: #f9faf8;
 }
