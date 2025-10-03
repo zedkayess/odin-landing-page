@@ -4,29 +4,35 @@ body {
     padding: 0;
 }
 
+.headersection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
-    justify-content: space-around;
-    height: 100px;
+    justify-content: space-between;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     height: 300px;
     gap: 20px
 }
 
-.header, .container {
-    background-color: #1F2937;
+.logo {
+    display: flex;
+    margin: 16px 0;
+    font-size: 24px;
     color: #f9faf8;
 }
 
-.logo {
-    display: flex;
-    /* margin: 16px 0; */
+.herotxt {
+    color: #f9faf8;
 }
+
 ul {
     display: flex;
     list-style-type: none;
