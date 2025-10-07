@@ -28,6 +28,7 @@ body {
     margin: 16px 0;
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 /* .herotxt {
@@ -49,9 +50,7 @@ ul {
 }
 
 a {
-    font-size: 18px;
     text-decoration: none;
-    color: #E5E7EB;
 }
 
 button {
@@ -74,7 +73,8 @@ button {
     color: #f9faf8;
 }
 
-.links, .subtext {
+.subtext, a {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    font-weight: lighter;
 }
