@@ -149,7 +149,8 @@ button {
 .calltoaction {
    display: flex;
    background-color: #3882f6;
-   justify-content: space-around;
+   justify-content: space-evenly;
+   align-items: center;
    margin: 50px 100px;
    padding: 50px;
    border-radius: 5px;
