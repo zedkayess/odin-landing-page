@@ -63,7 +63,7 @@ button {
     margin-top: 10px;
 }
 
-.image  {
+.placeholder  {
     background-color: slategrey;
     height: 200px;
     width: 600px;
@@ -78,3 +78,4 @@ button {
     color: #E5E7EB;
     font-weight: lighter;
 }
+
