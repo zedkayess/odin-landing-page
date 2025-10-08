@@ -79,3 +79,21 @@ button {
     font-weight: lighter;
 }
 
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxwrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    border: solid 3px rgb(86, 131, 230);
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
