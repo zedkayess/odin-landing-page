@@ -83,6 +83,7 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 
 .boxwrap {
@@ -93,7 +94,13 @@ button {
 
 .image {
     border: solid 3px rgb(86, 131, 230);
-    border-radius: 5px;
-    height: 100px;
-    width: 100px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.boxtext {
+    padding: 5px;
+    text-align: center;
+    width: 150px;
 }
