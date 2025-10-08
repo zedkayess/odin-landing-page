@@ -118,3 +118,19 @@ button {
 .randominfo {
     padding: 10px 100px;
 }
+
+.randomquote {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    background-color:#E5E7EB;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
