@@ -31,10 +31,6 @@ body {
     font-weight: bold;
 }
 
-/* .herotxt {
-    color: #f9faf8;
-} */
-
 .awesome {
     font-size: 48px;
     color: #f9faf8;
@@ -144,12 +140,27 @@ button {
 
 .banner {
     display: flex;
+    background-color: #3882f6;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #E5E7EB;
 }
 
+.calltoaction {
+   display: flex;
+   background-color: #3882f6;
+   justify-content: space-around;
+
+}
 
 footer {
     text-align: center;
-     background-color: #1F2937;
-     color: #E5E7EB;
-     padding: 30px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+}
+
+.calltoaction button {
+    border: solid #E5E7EB 2px;
+
 }
